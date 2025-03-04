@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trocador de cores</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <h1>Trocador de cores</h1>
+    <p>(Clique para trocar a cor do cubo)</p>
+    <div id="botoes">
+      <div id="area" onclick="azul()" onmouseout="sair()">Azul</div>
+      <div id="areanum" onclick="verde()" onmouseout="sair()">Verde</div>
+      <div id="areados" onclick="vermelho()" onmouseout="sair()">Vermelho</div>
+    </div>
+    <div id="container"></div>
+    <img src="Imagem/image.png" alt="homi" id="homi" />
+    <img src="Imagem/Tyler.png" alt="tyler" id="tyler" onclick="som()" />
+    <audio id="beep" src="Som/beep.mp3"></audio>
+    <script src="JavaScript.js"></script>
+  </body>
+</html>
