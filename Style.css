@@ -48,22 +48,19 @@ div#container {
   height: 50px;
   width: 50px;
   background-color: white;
-  margin: auto;
   border-radius: 10px;
   margin: auto;
   margin-top: 250px;
 }
 img#homi {
   height: 150px;
-  width: 150px;
   position: absolute;
-  right: 0;
-  margin-right: 580px;
-  margin-top: -95px;
+  bottom: 70px;
+  right: 500px;
 }
 img#tyler {
   height: 150px;
   position: absolute;
-  right: 0;
-  margin-top: 80px;
+  right: 5px;
+  bottom: 0px;
 }
